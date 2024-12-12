@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Martinez_ramirez_miguel_angel_pmdm03" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColor">@color/backgroundColor</item>
+        <item name="colorOnBackground">@color/textColor</item>
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnSurface">@color/textColor</item>
+
+        <!-- Personalización de botones y elementos -->
+        <item name="buttonStyle">@style/ButtonStyle.Pokemon</item>
+
+        <!-- SplashScreen -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/pokemon_splash</item>
+        <item name="android:windowSplashScreenAnimationDuration">2500</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
+        <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Estilo para botones -->
+    <style name="ButtonStyle.Pokemon" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Martinez_ramirez_miguel_angel_pmdm03" parent="Base.Theme.Martinez_ramirez_miguel_angel_pmdm03" />
+</resources>

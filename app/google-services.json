@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "55918891185",
+    "project_id": "mamr-pmdm03",
+    "storage_bucket": "mamr-pmdm03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55918891185:android:11c24744c7c1eba6541290",
+        "android_client_info": {
+          "package_name": "dam.pmdm.martinez_ramirez_miguel_angel_pmdm03"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkP5zsjxY7WbYWo2_HmFZZjBiR--wgYsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores para el tema en modo claro -->
+    <color name="colorPrimary">#FFCC00</color> <!-- Amarillo Pokémon -->
+    <color name="colorPrimaryDark">#D4A017</color> <!-- Amarillo oscuro -->
+    <color name="colorAccent">#CC0000</color> <!-- Rojo Pokémon -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Fondo blanco -->
+    <color name="textColor">#000000</color> <!-- Texto negro -->
+    <color name="white">#FFFFFF</color> <!-- Blanco -->
+    <color name="black">#000000</color> <!-- Negro -->
+    <color name="captured_background">#D3F8D3</color> <!-- Un color verde claro para los Pokémon capturados -->
+
+    <!-- Colores para temas oscuros (declarados pero no usados en temas claros) -->
+    <color name="colorPrimaryDarkTheme">#FFCC00</color>
+    <color name="colorAccentDarkTheme">#CC0000</color>
+    <color name="backgroundColorDarkTheme">#FFFFFF</color>
+    <color name="textColorDarkTheme">#000000</color>
+</resources>

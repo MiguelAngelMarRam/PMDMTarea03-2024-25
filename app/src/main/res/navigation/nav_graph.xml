@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_capturados">
+
+    <fragment
+        android:id="@+id/nav_capturados"
+        android:name="dam.pmdm.martinez_ramirez_miguel_angel_pmdm03.CapturadosFragment"
+        android:label="Capturados"
+        tools:layout="@layout/fragment_capturados" />
+
+    <fragment
+        android:id="@+id/nav_pokedex"
+        android:name="dam.pmdm.martinez_ramirez_miguel_angel_pmdm03.PokedexFragment"
+        android:label="Pokedex"
+        tools:layout="@layout/pokemon_list_fragment" />
+
+    <fragment
+        android:id="@+id/preferences"
+        android:name="dam.pmdm.martinez_ramirez_miguel_angel_pmdm03.SettingsFragment"
+        android:label="Settings"
+        tools:layout="R.xml.preferences" />
+</navigation>

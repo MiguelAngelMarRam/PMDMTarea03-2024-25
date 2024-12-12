@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores para el tema en modo noche -->
+    <color name="colorPrimary">#FFCC00</color> <!-- Amarillo Pokémon -->
+    <color name="colorPrimaryDarkTheme">#000000</color> <!-- Fondo negro -->
+    <color name="colorAccentDarkTheme">#FFCC00</color> <!-- Amarillo Pokémon -->
+    <color name="backgroundColorDarkTheme">#121212</color> <!-- Fondo gris oscuro -->
+    <color name="textColorDarkTheme">#FFFFFF</color> <!-- Texto blanco -->
+    <color name="white">#FFFFFF</color> <!-- Blanco -->
+    <color name="black">#000000</color> <!-- Negro -->
+    <color name="captured_background">#496B49</color> <!-- Verde más oscuro -->
+    <color name="backgroundColor">#121212</color> <!-- Fondo oscuro para no capturados -->
+</resources>

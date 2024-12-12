@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Martinez_ramirez_miguel_angel_pmdm03" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorAccentDarkTheme</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDarkTheme</item>
+        <item name="colorSecondary">@color/colorAccentDarkTheme</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="backgroundColor">@color/backgroundColorDarkTheme</item>
+        <item name="colorOnBackground">@color/textColorDarkTheme</item>
+        <item name="colorSurface">@color/backgroundColorDarkTheme</item>
+        <item name="colorOnSurface">@color/textColorDarkTheme</item>
+
+        <!-- Personalización de botones y elementos -->
+        <item name="buttonStyle">@style/ButtonStyle.PokemonDark</item>
+    </style>
+
+    <!-- Estilo para botones -->
+    <style name="ButtonStyle.PokemonDark" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/colorPrimaryDarkTheme</item>
+        <item name="android:textColor">@color/textColorDarkTheme</item>
+    </style>
+</resources>
