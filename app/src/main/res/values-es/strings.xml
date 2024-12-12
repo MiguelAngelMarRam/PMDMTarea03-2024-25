@@ -61,5 +61,6 @@
     <string name="ok">OK</string>
     <string name="session_closed">Sesión cerrada</string>
     <string name="unknown_language">Idioma desconocido</string>
+    <string name="delete">Eliminar</string>
 
 </resources>
